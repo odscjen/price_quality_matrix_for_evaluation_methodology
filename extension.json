@@ -6,7 +6,7 @@
     "en": "Adopts requirement extension on the basis of EBRD UNCITRAL Price-Quality Matrix for Open/Restricted Tender to the tender object and responses sections to bids, awards and contracts. Based on the EU's Core Criterion and Core Evidence Vocabulary (CCCEV), EBRD UNCITRAL Price-Quality Matrix for Open/Restricted Tender."
   },
   "documentationUrl": {
-    "en": "https://github.com/EBRD-Collaborator/price_quality_matrix_for_evaluation_methodology/"
+    "en": "https://github.com/EBRD-Open-Government-Lab-Kyiv/price_quality_matrix_for_evaluation_methodology"
   },
   "compatibility": [
     "1.1"
