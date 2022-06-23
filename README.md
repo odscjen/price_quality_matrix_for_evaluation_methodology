@@ -72,10 +72,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Materials",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "2",
@@ -83,10 +83,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Labour/Hourly Rate",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "3",
@@ -94,10 +94,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Overheads",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+             "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "4",
@@ -105,10 +105,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Packaging",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "5",
@@ -116,10 +116,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Profit amount",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             }
           ]
         },
@@ -133,10 +133,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Delivery",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "2",
@@ -144,10 +144,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Installation",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "3",
@@ -155,10 +155,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for Training",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             },
             {
               "id": "4",
@@ -166,10 +166,10 @@ Below is an example of requirements specified against both an item and a bidder 
               "description": "Costs for travel",
               "dataType": "value",
               "period": {
-                "startDate": "",
-                "endDate": ""
+                "startDate": "2013-04-03T00:00:00Z",
+                "endDate": "2014-04-03T00:00:00Z"
               },
-              "value": {"amount": "", "currency":""}
+              "value": {"amount": "5541314.23", "currency":"EUR"}
             }
           ]
         }
