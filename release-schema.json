@@ -1,97 +1,97 @@
 {
-  "definitions": {
-    "Criterion": {
-      "properties": {
-        "title": {
-          "codelist": "criteriaList.csv",
-          "openCodelist": false,
-          "enum": [
-            "aquisitionInitialCapitalExpedinture",
-	    "owningOperatingReccurentCosts",
-	    "endOfLifeDisposalExit",
-	    "functionality",
-	    "methodology",
-	    "innovation",
-	    "maintainbility",
-	    "afterSalesAssistanceAndSupport",
-	    "security",
-	    "sustainabilityConsiderations",
-	    "null"
-          ]
-        }
+   "definitions":{
+      "Criterion":{
+         "properties":{
+            "title":{
+               "codelist":"criteriaList.csv",
+               "openCodelist":false,
+               "enum":[
+                  "aquisitionInitialCapitalExpedinture",
+                  "owningOperatingReccurentCosts",
+                  "endOfLifeDisposalExit",
+                  "functionality",
+                  "methodology",
+                  "innovation",
+                  "maintainbility",
+                  "afterSalesAssistanceAndSupport",
+                  "security",
+                  "sustainabilityConsiderations",
+                  "null"
+               ]
+            }
+         }
+      },
+      "RequirementGroup":{
+         "title":{
+            "title":"title",
+            "description":"A title for Requirement Group",
+            "type":[
+               "string",
+               "null"
+            ],
+            "minLength":1,
+            "codelist":"requirementGroups.csv",
+            "openCodelist":false,
+            "enum":[
+               "priceOfGoodsProvisionOfService",
+               "commissioningCosts",
+               "owningOperatingReccurentCosts",
+               "endOfLifeDisposalExit",
+               "functionality",
+               "methodology",
+               "innovation",
+               "maintainbility",
+               "afterSalesAssistanceAndSupport",
+               "security",
+               "sustainabilityConsiderations",
+               null
+            ]
+         }
+      },
+      "Requirement":{
+         "properties":{
+            "title":{
+               "codelist":"requirementsList.csv",
+               "openCodelist":false,
+               "enum":[
+                  "material",
+                  "labourHourlyRate",
+                  "overheads",
+                  "packaging",
+                  "profit",
+                  "delivery",
+                  "installation",
+                  "training",
+                  "travel",
+                  "maintenance",
+                  "spares",
+                  "energyFuelConsumption",
+                  "upgradeCosts",
+                  "consumables",
+                  "disposalExitCosts",
+                  "lessResidualValue",
+                  null
+               ]
+            },
+            "dataType":{
+               "enum":[
+                  "string",
+                  "value",
+                  "null"
+               ]
+            }
+         }
+      },
+      "RequirementResponse":{
+         "properties":{
+            "value":{
+               "type":[
+                  "string",
+                  "object",
+                  "null"
+               ]
+            }
+         }
       }
-    },
-    "RequirementGroup": {
-      "title": {
-        "title": "title",
-        "description": "A title for Requirement Group",
-        "type": [
-          "string",
-          "null"
-        ],
-        "minLength": 1,
-        "codelist": "requirementGroups.csv",
-        "openCodelist": false,
-        "enum": [
-          "priceOfGoodsProvisionOfService",
-	  "commissioningCosts",
-	  "owningOperatingReccurentCosts",
-	  "endOfLifeDisposalExit",
-	  "functionality",
-	  "methodology",
-	  "innovation",
-	  "maintainbility",
-	  "afterSalesAssistanceAndSupport",
-	  "security",
-	  "sustainabilityConsiderations",
-          null
-        ]
-      }
-    },
-    "Requirement": {
-      "properties": {
-        "title": {
-          "codelist": "requirementsList.csv",
-          "openCodelist": false,
-          "enum": [
-            "material",
-	    "labourHourlyRate",
-	    "overheads",
-	    "packaging",
-	    "profit",
-	    "delivery",
-	    "installation",
-	    "training",
-	    "travel",
-	    "maintenance",
-	    "spares",
-	    "energyFuelConsumption",
-	    "upgradeCosts",
-	    "consumables",
-	    "disposalExitCosts",
-	    "lessResidualValue",
-            null
-          ]
-        },
-      "dataType" : {
-        "enum" : [
-          "string",
-	  "value",
-	  "null"
-         ]
-        }
-      }
-    },
-    "RequirementResponse": {
-      "properties": {
-        "value": {
-          "type": [
-            "string",
-            "object",
-            "null"
-          ]
-        }
-      }
-    }
-  }
+   }
 }
