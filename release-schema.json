@@ -72,6 +72,13 @@
 	    "lessResidualValue",
             null
           ]
+        },
+      "dataType" : {
+        "enum" : [
+          "string",
+	  "value",
+	  "null"
+         ]
         }
       }
     },
