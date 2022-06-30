@@ -55,7 +55,7 @@ The extension introduces a new building block for each of the concepts described
 Below is an example of requirements specified against both an item and a bidder which demonstrates both **AND** and **OR** conditions:
 
 ```json
-    {
+    "tender": {"criterion" : [{        
       "id": "1",
       "title": "Acqusistion/Initial Capital Expenditure",
       "description": "Decomposed data for Acqusistion/Initial Capital Expenditure",
@@ -175,6 +175,8 @@ Below is an example of requirements specified against both an item and a bidder 
         }
       ]
     }
+]
+}
 ```
 
 Below is an example of responses which meet the above requirements:
