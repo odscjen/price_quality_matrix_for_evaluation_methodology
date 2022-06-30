@@ -21,7 +21,7 @@
             }
          }
       },
-      "RequirementGroup":{
+"RequirementGroup":{
          "properties":{
             "title":{
                "title":"title",
@@ -48,8 +48,9 @@
                   null
                ]
             }
-         },
-         "Requirement":{
+         }
+},
+"Requirement":{
             "properties":{
                "title":{
                   "codelist":"requirementsList.csv",
