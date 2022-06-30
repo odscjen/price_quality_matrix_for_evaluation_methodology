@@ -1,0 +1,3 @@
+Code,Title,Description
+string,String,The requirement response must be of type string
+value,Value,The requirement response must be of type value object
