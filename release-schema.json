@@ -16,7 +16,7 @@
                   "afterSalesAssistanceAndSupport",
                   "security",
                   "sustainabilityConsiderations",
-                  "null"
+                  null
                ]
             }
          }
@@ -78,7 +78,7 @@
                   "enum":[
                      "string",
                      "value",
-                     "null"
+                     null
                   ]
                }
             }
@@ -90,7 +90,7 @@
                "type":[
                   "string",
                   "object",
-                  "null"
+                  null
                ]
             }
          }
